@@ -1,0 +1,19 @@
+name: economyPlugin
+version: 1.0
+main: net.dark.economyplugin.EconomyPlugin
+description: Plugin di economia per Minecraft
+author: _Its_D4rk_
+api-version: 1.19
+commands:
+  balance:
+    description: Visualizza il saldo di un giocatore
+    usage: /balance <player>
+  setbalance:
+    description: Imposta il saldo di un giocatore
+    usage: /setbalance <player> <soldi>
+  addbalance:
+    description: Aggiunge soldi al saldo di un giocatore
+    usage: /addbalance <player> <soldi>
+  pay:
+    description: Paga un altro giocatore
+    usage: /pay <player> <soldi>
